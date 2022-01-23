@@ -11,7 +11,7 @@ const FormControl = styled.div`
   font-weight: bold;
   display: block;
   margin-bottom: 0.5rem;
-  color: ${props => props.invalid ? 'red' : ''}
+  color: ${props => props.invalid ? 'red' : 'black'}
 }
 
 & input {
